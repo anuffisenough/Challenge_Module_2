@@ -1,7 +1,4 @@
-* {
-    background-color: gray;
-    color: black
-}
+
 
 header {
     background-color: aliceblue;
@@ -14,3 +11,65 @@ img {
 body {
     
 }
+
+.flex-container-1 {
+    display:flex;
+
+
+}
+
+.flex-container-2 {
+    display:flex;
+}
+
+.flex-container-3 {
+    display:flex;
+}
+
+card {
+    flex-direction: row;
+    background-color: rgb(170, 219, 163);
+    height: 200px;
+    width: 600px;
+    align-content: center;
+    border-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24pt;
+    border-radius: 15%;
+}
+
+p {
+    flex-direction: row;
+    flex-grow: 2
+
+    background-color: rgb(170, 219, 163);
+    height: 200px;
+    width: 600px;
+    padding: ;
+    border: 10px;
+    margin: 10px
+    border-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24pt;
+    border-radius: 15%;
+}
+
+@media screen and (max-width: 992px) {
+    {
+   
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    {
+  
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    {
+   
+    }
+  }
