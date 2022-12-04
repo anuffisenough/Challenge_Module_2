@@ -36,12 +36,18 @@ nav ul li {
     flex-wrap: wrap;
     display: inline;
     color: black;
-    border: solid black
+    vertical-align: bottom;
+
+}
+
+nav ul li a {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .flex-hero {
     margin: 0px;
-    background-color: green;
+    background-color: rgb(151, 193, 151);
     display: flex;
 }
 
@@ -58,10 +64,11 @@ nav ul li {
 }
 
 div h2 {
+    dispay: flex;
     float: left;
     padding: 10px;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: rgb(64, 113, 70);
     height: 100px;
     width: 200px;
     align-content: center;
@@ -69,9 +76,10 @@ div h2 {
 }
 
 p {
+    display: flex
     padding: 10px;
     height: 100px;
-    background-color: yellow;
+    background-color: rgb(64, 113, 70);
     border-right: solid black;
 }
 
@@ -100,28 +108,28 @@ footer h2 {
     backgroung-color: white
     align-content: center;
 }
-/*
-.flex-main {
-    display: flex;
+
+section ul {
+    vertical-align: center;
+    float: right;
     justify-content: space-between;
-}
-
-.flex-section {
-    display: inline block;
-    margin: 20px;
-    border: solid black
-}
-
-#about-christopher {
-    display: inline;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: stretch;
-    margin: 20px;
-    background-color: pink;
-    border: solid black
+    vertical-align: middle;    
+    padding-top: 15px;}
+
+section ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    padding: 20px;
+    flex-wrap: wrap;
+    display: inline;
+    color: black;
+    vertical-align: bottom;
+
 }
 
-.flex-about {
-    display: flex;
-    justify-content: space-between;
+section ul li a {
+    margin-left: 100px;
+    margin-right: 100px;
 }
