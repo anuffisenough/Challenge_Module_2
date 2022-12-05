@@ -1,48 +1,61 @@
 /*Top banner elements ONLY*/
 
 *{
-    background-color: rgb(216, 220, 211);
+  
     margin: 0px;
 }
 
 .flex-header {
-    margin-top: 2px;
     display: flex;
+    background-color: gray;
     justify-content: space-between;
+    flex-wrap: wrap;
  }
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
     float: left;
-    flex-direction: column;
     padding: 10px;
-    flex-wrap: wrap;
+}
+
+h2 {
+    float: left;
+    padding: 10px;
+    background-color: rgb(64, 113, 70);
+    align-content: center;
+    border-right: solid black;
+}
+
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap, column;
+    min-height: 40px;
 }
 
 nav ul {
     vertical-align: center;
     float: right;
     justify-content: space-between;
-    flex-direction: column;
     flex-wrap: wrap;
-    vertical-align: middle;    
-    padding-top: 15px;}
+}
 
 nav ul li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
     padding: 20px;
+    align-items: flex-start;
     flex-wrap: wrap;
-    display: inline;
+    display: inline-block;
     color: black;
-    vertical-align: bottom;
-
 }
 
 nav ul li a {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: 50px;
+    margin: 20px;
+    justify-content: space-between;
 }
 
 .flex-hero {
@@ -58,21 +71,16 @@ nav ul li a {
     border-radius: 15%;
 }
 
-.flex-about {
+div {
     margin: 10px;
-    display:flex;
 }
 
-div h2 {
-    dispay: flex;
-    float: left;
-    padding: 10px;
-    flex-wrap: wrap;
-    background-color: rgb(64, 113, 70);
-    height: 100px;
-    width: 200px;
-    align-content: center;
-    border-right: solid black;
+.about-christopher h2 {
+    
+}
+
+.about h2 {
+    
 }
 
 p {
@@ -82,7 +90,7 @@ p {
     background-color: rgb(64, 113, 70);
     border-right: solid black;
 }
-
+/*
 .flex-deployed {
     margin: 10px;
     display:flex;
