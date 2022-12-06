@@ -1,10 +1,15 @@
 /*Top banner elements ONLY*/
 
 *{
-  
+    padding: 0px;
     margin: 0px;
 }
 
+#other-applications {
+    height: 200px;
+    width: auto;
+
+}
 .flex-header {
     display: flex;
     background-color: gray;
@@ -71,73 +76,67 @@ nav ul li a {
     border-radius: 15%;
 }
 
-div {
-    margin: 10px;
-}
-
-.about-christopher h2 {
-    
-}
-
-.about h2 {
-    
-}
-
-p {
-    display: flex
+.section-container {
+    position: absolute;
+  }
+  
+  .section-container h2 {
+    float: left;
     padding: 10px;
-    height: 100px;
     background-color: rgb(64, 113, 70);
-    border-right: solid black;
-}
-/*
-.flex-deployed {
-    margin: 10px;
-    display:flex;
-}
-
-.flex-deployed section img {
-    height: 600px;
-    width: 600px;
-}
-
-#other-applications {
-    flex-wrap: wrap;
-    height: 300px;
-    width: 200px;
-}
-
-.flex-contact {
-    margin: 10px;
-    display:flex;
-}
-
-footer h2 {
-    backgroung-color: white
     align-content: center;
+    border-right: solid black;
+  }
+  
+  .section-container p {
+    position: relative;
+    margin-left: 220px;    
+    background-color: rgb(64, 113, 70);
+  }
+
+  .images-section {
+    margin-top: 100px;
+    position:absolute;
+  }
+
+  .image-section h2 {
+    position: absolute;
+  }
+
+   .images-section fig {
+    margins: 0px;
+    height: 200px;
+    width: 100px;
+  }
+
+  .contact-flex {
+    margin-top: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap, column;
+    min-height: 40px;
 }
 
-section ul {
-    vertical-align: center;
-    float: right;
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap: wrap;
-    vertical-align: middle;    
-    padding-top: 15px;}
+.contact-flex ul {
+    justify-content: space-evenly;
+}
 
-section ul li {
+.contact-flex ul li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
     padding: 20px;
+    align-items: flex-start;
     flex-wrap: wrap;
-    display: inline;
+    display: inline-block;
     color: black;
-    vertical-align: bottom;
-
 }
 
-section ul li a {
-    margin-left: 100px;
-    margin-right: 100px;
+nav ul li a {
+    padding: 50px;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: 50px;
 }
