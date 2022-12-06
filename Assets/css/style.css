@@ -1,5 +1,3 @@
-/*Top banner elements ONLY*/
-
 *{
     padding: 0px;
     margin: 0px;
@@ -78,7 +76,7 @@ nav ul li a {
 
 .section-container {
     position: absolute;
-  }
+}
   
   .section-container h2 {
     float: left;
@@ -86,30 +84,20 @@ nav ul li a {
     background-color: rgb(64, 113, 70);
     align-content: center;
     border-right: solid black;
-  }
+}
   
-  .section-container p {
+.section-container p {
     position: relative;
     margin-left: 220px;    
     background-color: rgb(64, 113, 70);
-  }
+}
 
-  .images-section {
+.images-section {
     margin-top: 100px;
     position:absolute;
-  }
+}
 
-  .image-section h2 {
-    position: absolute;
-  }
-
-   .images-section fig {
-    margins: 0px;
-    height: 200px;
-    width: 100px;
-  }
-
-  .contact-flex {
+.contact-flex {
     margin-top: 900px;
     display: flex;
     flex-direction: row;
@@ -140,3 +128,31 @@ nav ul li a {
 footer {
     margin-top: 50px;
 }
+
+@media screen and (max-width: 992px) {
+    .images-section {
+        margin-top: 15%;
+    }
+
+    .contact-flex {
+        margin-top: 115%;
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .images-section {
+        margin-top: 75%;
+    }
+
+    .contact-flex {
+        margin-top:75%;
+    }
+
+    footer {
+        margin-top: 75%;
+    }
+  }
