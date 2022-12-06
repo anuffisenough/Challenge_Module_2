@@ -1,25 +1,27 @@
 # Challenge_Module_02
 
-## Description <!--Needs to be updated-->
+## Description
 
--This project was aimed at increasing the accessibility of the customer's website.
+-This project aimed to create a portfolio page for a prospective web developer.
 
--The steps outlined were meant to improve accessibility of the website by refactoring existing code to make it more logical and compatible with various technologies and browsers.
+-The portfolio page needs to provide the developer's name, a recent photo, links to sections about the developer, links to their work, and contact information.
 
--The project replaced previous semantic elements with more logical elements, reorganized existing stylesheet attributes, added alt text for images, eliminated redundancies in the stylesheet (DRY), and improved functionality of page where applicable (all links are now functional)
+-The navigation links for the bio, published applications, and contact shall all link to the appropriate sections when clicked by the viewer.
 
--This project shows that while semantic elements may not all impact the view of the page, they can impact accessibility. It also shows that code can be written more efficiently while maintaining the same functions.
+-When viewing the developer's published work, the first application appears in a clickable image that is larger than the other application images.
 
-## Usage <!--Needs to be updated>
+-Layouts are reformated using media queries to respond to breakpoints at 992 and 768 pixels.
 
-https://anuffisenough.github.io/Challenge_Module_1/
+## Usage
 
-### Screenshot <!--Needs to be updated, look into animation capture>
+https://anuffisenough.github.io/Challenge_Module_2/
 
-![screenshot of module 1 challenge](assets/images/screenshot.png)
+### Screenshot 
 
-## Credits <!--Needs to be updated-->
+![screenshot of module 2 challenge](Assets/images/screenshot.png)
 
-![Professional README.md Guide] https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+## Credits
 
-![Mdn web docs tutorial on HTML and accessibility] https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+![Mdn web docs tutorial on CSS Layouts and Flexbox] https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+
+
