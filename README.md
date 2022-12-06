@@ -23,5 +23,7 @@ https://anuffisenough.github.io/Challenge_Module_2/
 ## Credits
 
 ![Mdn web docs tutorial on CSS Layouts and Flexbox] https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+![Free Alternate Images] https://placekitten.com/640/360
+![Free Alternate Images] https://loremflickr.com/cache/resized/65535_51811075674_9708ed1768_z_640_360_nofilter.jpg
 
 
